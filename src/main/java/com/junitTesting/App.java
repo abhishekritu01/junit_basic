@@ -1,4 +1,4 @@
-package com.spring-boot-security;
+package com.junitTesting;
 
 /**
  * Hello world!

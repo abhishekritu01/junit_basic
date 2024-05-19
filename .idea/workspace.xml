@@ -5,16 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e7673af-eb19-4e41-b0f0-96edd51c345c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/junitTesting/services/AssertExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/junitTesting/services/CalculatorServiceJunit5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junitTesting/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junitTesting/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junitTesting/services/CalculatorServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junitTesting/services/CalculatorServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/junitTesting/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junitTesting/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/junitTesting/services/CalculatorServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junitTesting/services/CalculatorServicesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "abhishekritu01"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:abhishekritu01/junit_basic.git",
+    "accountId": "78ff1ea1-3e5c-485a-8091-b33cc08ddf50"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -26,14 +57,115 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
+    "JUnit.CalculatorServiceJunit5.addTwoNumber.executor": "Run",
+    "JUnit.CalculatorServiceJunit5.executor": "Run",
+    "JUnit.CalculatorServicesTest.executor": "Run",
+    "JUnit.CalculatorServicesTest.sumAnyNumber.executor": "Run",
+    "JUnit.CalculatorServicesTest.testAddTwoNumber.executor": "Run",
+    "JUnit.CalculatorServicesTest.testSubtractTwoNumber.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "junit-5",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.CalculatorServiceJunit5">
+    <configuration name="CalculatorServiceJunit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junitTesting.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junitTesting.services" />
+      <option name="MAIN_CLASS_NAME" value="com.junitTesting.services.CalculatorServiceJunit5" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorServiceJunit5.addTwoNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junitTesting.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junitTesting.services" />
+      <option name="MAIN_CLASS_NAME" value="com.junitTesting.services.CalculatorServiceJunit5" />
+      <option name="METHOD_NAME" value="addTwoNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junitTesting.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junitTesting.services" />
+      <option name="MAIN_CLASS_NAME" value="com.junitTesting.services.CalculatorServicesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorServicesTest.sumAnyNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junitTesting.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junitTesting.services" />
+      <option name="MAIN_CLASS_NAME" value="com.junitTesting.services.CalculatorServicesTest" />
+      <option name="METHOD_NAME" value="sumAnyNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorServicesTest.testSubtractTwoNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junitTesting.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junitTesting.services" />
+      <option name="MAIN_CLASS_NAME" value="com.junitTesting.services.CalculatorServicesTest" />
+      <option name="METHOD_NAME" value="testSubtractTwoNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorServiceJunit5" />
+        <item itemvalue="JUnit.CalculatorServiceJunit5.addTwoNumber" />
+        <item itemvalue="JUnit.CalculatorServicesTest" />
+        <item itemvalue="JUnit.CalculatorServicesTest.testSubtractTwoNumber" />
+        <item itemvalue="JUnit.CalculatorServicesTest.sumAnyNumber" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -50,11 +182,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716033519664</updated>
-      <workItem from="1716033522500" duration="12000" />
+      <workItem from="1716033522500" duration="6377000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/junitTesting/services/CalculatorServicesTest.java</url>
+          <line>56</line>
+          <properties class="com.junitTesting.services.CalculatorServicesTest" method="testSubtractTwoNumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
